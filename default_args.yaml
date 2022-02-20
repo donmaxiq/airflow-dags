@@ -1,0 +1,9 @@
+default_args:
+   owner: m.ilmetov
+   depends_on_past: False
+   email: "donmaxiq@gmail.com"
+   email_on_failure: False
+   email_on_retry: False
+   retries: 10
+   retry_delay: 5
+   pool: default_pool
